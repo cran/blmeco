@@ -1,0 +1,20 @@
+# exportPattern("^[[:alpha:]]+")
+
+# single objects that have to be exportet, comma has to be in front of the line
+export(
+     AICweights
+    ,compareqqnorm
+    ,crosspoint  
+    ,dispersion_glmer
+    ,loo.cv
+    ,ocv  
+    ,triplot.normal.knownvariance
+    ,historyplot
+    ,WAIC
+	)
+
+import(lme4)
+importFrom(arm, sim)
+importFrom(MuMIn, AICc)
+import(MASS)
+
