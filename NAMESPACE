@@ -13,8 +13,14 @@ export(
     ,WAIC
 	)
 
-import(lme4)
+importFrom(lme4, lmer, glmer, fixef, ranef)
 importFrom(arm, sim)
 importFrom(MuMIn, AICc)
-import(MASS)
+importFrom("MASS", "mvrnorm")
+importFrom("grDevices", "rainbow")
+importFrom("graphics", "lines", "par", "plot")
+importFrom("stats", "coef", "dbinom", "dnorm", "dpois", "fitted",
+              "hatvalues", "model.matrix", "qqline", "qqnorm", "resid",
+              "rnorm", "update", "var")
+
 
