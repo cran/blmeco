@@ -1,7 +1,7 @@
-fdf73a268345f40882c8dbb1eba8a0db *DESCRIPTION
+e34005db3790a7162cd92ae56e36235c *DESCRIPTION
 4ae122f54659e1c70020cb85f432f741 *NAMESPACE
 baf7f6e11e140089abd8eb17311414aa *R/AICweights.R
-360063dede7f341546aeeea4ccd101ed *R/WAIC.R
+e6a92b8876412f3133dbf5f5b6cb4fcf *R/WAIC.R
 2ee0acb6219f3036db29c95a39657253 *R/compareqqnorm.r
 3b8f37bcc06e7b09729a131d3b65b0bc *R/crosspoint.r
 f5ad60112e6a1cb9b87c2cd951a937c5 *R/dispersion_glmer.R
@@ -36,10 +36,10 @@ f320f5af3ff121a172fbab9e06c5bf40 *data/swallowfarms.rda
 c92ee089301a4e075bb0b74d889b2c2d *man/anoctua.Rd
 5756cc19aee6ab7dde23c6169ad8cb3b *man/blackstork.Rd
 813195e9e634058ac918a41c423a59bd *man/blmeco-package.Rd
-0f3506f0bb41d2358f45bf56471cb56a *man/compareqqnorm.Rd
+64d3f5e2a779e0d89609f7437f252949 *man/compareqqnorm.Rd
 6b9d73344fa14dbe61d26b7759edaea1 *man/cortbowl.Rd
 f1ebe365fa19cdfbdd0e6965c8490549 *man/crosspoint.Rd
-732b1480e5c16b3419cd648d8862cf16 *man/dispersion_glmer.Rd
+8d292f0715d82f68bce789c35d1cf49d *man/dispersion_glmer.Rd
 c2b59f79694e36951770358b753fef73 *man/ellenberg.Rd
 43a7369af29adeaf6688854b1b226891 *man/frogs.Rd
 255f4c869bbaf6960f5ae3e5d5a3e46f *man/historyplot.Rd

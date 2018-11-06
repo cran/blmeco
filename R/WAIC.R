@@ -16,8 +16,8 @@ WAIC <- function(mod, bsim=NA, nsim=100){
     if(is.element(mclass, c("lm", "glm")))  nsim <- nrow(bsim@coef) else nsim <- nrow(bsim@fixef)
   }
   
-  if(is.element(mclass, c("lm", "glm"))) family <- mod$family$family
-  if(mclass=="lmerMod") family <- "gaussian"
+  if(is.element(mclass, c("glm"))) family <- mod$family$family
+  if(is.element(mclass, c("lm", "lmerMod"))) family <- "gaussian"
   if(mclass=="glmerMod") family <- mod@resp$family$family
   if(is.null(family)) family <- "gaussian"
   if(!is.element(family, c("gaussian", "poisson", "binomial"))) stop("family must be an gaussian, binomial or poisson")
@@ -27,7 +27,8 @@ WAIC <- function(mod, bsim=NA, nsim=100){
   predorig <- matrix(ncol=nsim, nrow=n) 
   linpred <- matrix(ncol=nsim, nrow=n)
   Xmat <- model.matrix(mod)
-  if(is.element(mclass, c("lm", "glm"))) link <- mod$family$link 
+  if(is.element(mclass, c("glm"))) link <- mod$family$link 
+  if(is.element(mclass, c("lm"))) link <- "identity"
   if(mclass=="lmerMod") link <- "identity"
   if(mclass=="glmerMod") link <- mod@resp$family$link
   if(is.null(link)|link=="identity") ilink <- "identity"

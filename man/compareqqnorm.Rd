@@ -15,7 +15,8 @@ The place of residuals is printed to the R-console.
 compareqqnorm(mod)
 }
 \arguments{
-  \item{mod}{a linear model (an lm-object) 
+  \item{mod}{a linear model (an lm-object or any other object of which resid(mod) 
+  gives a numeric vector of numbers) 
 }
 }
 
