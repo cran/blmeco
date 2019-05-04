@@ -1,4 +1,4 @@
-e34005db3790a7162cd92ae56e36235c *DESCRIPTION
+4f238e0b0787b571314ad9f1e2f650d1 *DESCRIPTION
 4ae122f54659e1c70020cb85f432f741 *NAMESPACE
 baf7f6e11e140089abd8eb17311414aa *R/AICweights.R
 e6a92b8876412f3133dbf5f5b6cb4fcf *R/WAIC.R
@@ -6,9 +6,9 @@ e6a92b8876412f3133dbf5f5b6cb4fcf *R/WAIC.R
 3b8f37bcc06e7b09729a131d3b65b0bc *R/crosspoint.r
 f5ad60112e6a1cb9b87c2cd951a937c5 *R/dispersion_glmer.R
 4028f98033ac2c371db2763d733bc4c4 *R/historyplot.R
-a2796bf4c7d4f7c33a2b692dec030939 *R/loo.cv.r
+2d7949c75d3d05a7394cacae1dddb16a *R/loo.cv.r
 dc64dad7a53d8f4682af653709323bc7 *R/ocv.r
-a9bd33863e48799dac3cb984b2ac7191 *R/triplot.normal.knownvariance.R
+4389d97970ea94627b1b0bc814363e34 *R/triplot.normal.knownvariance.R
 c605e55191fb56f43f35d63ed5d4f800 *data/anoctua.rda
 9d1f1aa658f74279c632fa2f2ca17521 *data/blackstork.rda
 28449f23a43d19073b46313db4cf154a *data/cortbowl.rda
