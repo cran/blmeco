@@ -1,6 +1,6 @@
-4f238e0b0787b571314ad9f1e2f650d1 *DESCRIPTION
-4ae122f54659e1c70020cb85f432f741 *NAMESPACE
-baf7f6e11e140089abd8eb17311414aa *R/AICweights.R
+39657572720fcb7afeba6c015f408973 *DESCRIPTION
+7238580be9dd06a13dd6f75ea9a9123a *NAMESPACE
+a1d552d9fc2cf1fbf242cef7d067fbbb *R/AICweights.R
 e6a92b8876412f3133dbf5f5b6cb4fcf *R/WAIC.R
 2ee0acb6219f3036db29c95a39657253 *R/compareqqnorm.r
 3b8f37bcc06e7b09729a131d3b65b0bc *R/crosspoint.r
@@ -31,7 +31,7 @@ f320f5af3ff121a172fbab9e06c5bf40 *data/swallowfarms.rda
 993f9258833b10f64962f4bd8e6be89e *data/wingbowl.rda
 27985b63f4b4237229ccf313ad10a00a *data/yellow_bellied_toad.rda
 20239c2a8a57d822a064ee49faad16e8 *inst/CITATION
-18a53a345800739c6cc3c0f8fac8dda2 *man/AICweights.Rd
+094301ffb881225273c841997d27d9cf *man/AICweights.Rd
 132900631cd695342296263034cb087e *man/WAIC.Rd
 c92ee089301a4e075bb0b74d889b2c2d *man/anoctua.Rd
 5756cc19aee6ab7dde23c6169ad8cb3b *man/blackstork.Rd
